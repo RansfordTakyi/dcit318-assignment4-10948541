@@ -1,3 +1,4 @@
+
 using System;
 using System.Windows.Forms;
 
@@ -10,7 +11,7 @@ namespace MultiAppProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new AddressBookForm());
         }
     }
 }
